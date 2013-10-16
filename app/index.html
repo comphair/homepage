@@ -13,44 +13,51 @@
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
-            <div class="container">
-                <div id="logo"></div>
-                <h1>Comphair makes booking haircuts easy.</h1>
-            </div>
-        </header>
-
-        <section id="steps">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 step">
-                        <h2>Choose a hair salon.</h2>
-                        <span class="picture"></span>
-                    </div>
-                    <div class="col-md-3 step">
-                        <h2>Choose a stylist.</h2>
-                        <span class="picture"></span>
-                    </div>
-                    <div class="col-md-3 step">
-                        <h2>Make an appointment.</h2>
-                        <span class="picture"></span>
-                    </div>
-                    <div class="col-md-3 step">
-                        <h2>Get your haircut.</h2>
-                        <span class="picture"></span>
+        <article id="customer">
+            <header>
+                <div class="container">
+                    <div id="logo" class="hidden-xs hidden-sm"></div>
+                    <h1>Comphair makes booking haircuts easy.</h1>
+                </div>
+            </header>
+            <section id="steps">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 step">
+                            <h2>Choose a hair salon.</h2>
+                            <span class="picture"></span>
+                        </div>
+                        <div class="col-md-3 step">
+                            <h2>Choose a stylist.</h2>
+                            <span class="picture"></span>
+                        </div>
+                        <div class="col-md-3 step">
+                            <h2>Make an appointment.</h2>
+                            <span class="picture"></span>
+                        </div>
+                        <div class="col-md-3 step">
+                            <h2>Get your haircut.</h2>
+                            <span class="picture"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </article>
+
+        <article id="store">
+            <header>
+                <h1>For Hair Salons.</h1>
+            </header>
+            <section id="steps">
+
+            </section>
+        </article>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
