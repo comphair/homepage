@@ -1,4 +1,40 @@
 #store
 
   section
-    text-align: center
+
+    .step
+      color: #ef816a
+      text-align: center
+      vertical-align: middle
+      padding: 20px 40px
+
+      .picture
+        height: 270px
+        width: 100%
+        margin: 30px 0 0
+        display: inline-block
+
+      h2
+        font-size: 17pt
+        position: relative
+        display: inline
+
+      &:nth-child(1) .picture
+        background-image: url("../images/step_1.png")
+        background-position: center
+        background-repeat: no-repeat
+
+      &:nth-child(2) .picture
+        background-image: url("../images/step_2.png")
+        background-position: center
+        background-repeat: no-repeat
+
+      &:nth-child(3) .picture
+        background-image: url("../images/step_3.png")
+        background-position: center
+        background-repeat: no-repeat
+
+      &:nth-child(4) .picture
+        background-image: url("../images/step_4.png")
+        background-position: center
+        background-repeat: no-repeat
